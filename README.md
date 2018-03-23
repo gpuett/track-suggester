@@ -10,7 +10,7 @@ _This webpage asks the user to submit a short, five question survey to determine
 
 ## Setup/Installation Requirements
 
-* _Open browser and travel to_ <a href='https://gpuett.github.io/track-suggester'>Track Suggester</a>
+* _Open browser and travel to_ <a href='https://gpuett.github.io/track-suggester/'>Track Suggester</a>
 
 ## Known Bugs
 
