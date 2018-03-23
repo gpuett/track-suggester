@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .android {
   display: none;
 }
@@ -8,4 +13,30 @@
 
 .net {
   display: none;
+}
+
+.form-control {
+  max-width: 400px;
+}
+
+.jumbotron {
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  text-align: center;
+
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#output p {
+  font-size: 20px;
 }
