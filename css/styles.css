@@ -15,6 +15,10 @@
   display: none;
 }
 
+.ruby {
+  display: none;
+}
+
 .error {
   display: none;
 }
@@ -40,6 +44,7 @@
   padding: 20px;
   max-width: 500px;
   border: solid black 3px;
+  font-size: 15px;
 }
 
 form {
