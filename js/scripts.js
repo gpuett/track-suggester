@@ -11,8 +11,6 @@ $(document).ready(function(){
     var q6 = parseInt($("#music").val());
     var code = $("input:radio[name=code]:checked").val();
     var result = q1 + q2 + q3 + q4 + q5 + q6
-    console.log(result)
-    console.log(code)
     if (q1 === 0 || q2 === 0 || q3 ===0 || q4 === 0 || q5 === 0 || q6 === 0) {
       $(".error").show();
       $("#jupiter").fadeIn();
