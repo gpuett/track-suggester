@@ -53,6 +53,11 @@ form {
   font-size: 20px;
 }
 
+#jupiter {
+  display: none;
+  margin-top: 20px;
+}
+
 body {
   background-image: url(../img/swirl.jpg);
   font-family: garamond;

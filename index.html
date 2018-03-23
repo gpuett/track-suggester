@@ -10,14 +10,14 @@
   <body>
     <div class="jumbotron">
       <h1>Track Suggester for Your Future in Development!</h1>
-      <p>Your future looks bright now that you are enrolling at Epicodus! Let's take a quick survey to see what track best fits your skills and interests.</p>
+      <p>Your future looks bright now that you are enrolling at Epicodus! Let's take a quick survey to see which track best fits your skills and interests.</p>
     </div>
     <div class="container">
       <div id="quiz">
         <form id="suggest">
           <div class="form-group">
             <label for="name">Please enter your name:</label><br>
-            <input id="name" type="text"><br>
+            <input id="name" type="text" required><br>
           </div>
           <label for="radio">Are you interested in front or back end development?</label>
           <div class="radio">
@@ -97,9 +97,10 @@
           <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
         </div>
         <div class="error">
-          <h2>Please enter your name and respond to each question!</h2>
+          <h2>Please respond to each question!</h2>
           <p>Refresh the page and try again!</p>
           <button class= "btn-lg btn-danger" onclick=location=URL>Refresh</button>
+          <img id="jupiter" src="img/jupiter.gif">
         </div>
       </div>
     </div>
