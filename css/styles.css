@@ -26,7 +26,7 @@
 .jumbotron {
   padding: 50px;
   text-align: center;
-
+  background-image: url(../img/subtle.jpg);
 }
 
 .container {
