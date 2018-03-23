@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage asks the user to submit a short, five question survey to determine what Epicodus track best fits them._
+_This webpage asks the user to submit a survey to determine which Epicodus track best fits them._
 
 ## Setup/Installation Requirements
 
