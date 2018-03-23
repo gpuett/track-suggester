@@ -52,3 +52,7 @@ form {
 body {
   background-image: url(../img/swirl.jpg);
 }
+.form-group {
+  padding: 15px;
+  text-align: center;
+}

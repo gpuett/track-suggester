@@ -15,7 +15,11 @@
     <div class="container">
       <div id="quiz">
         <form id="suggest">
-          <label for="develop">What do you want to develop?</label>
+          <div class="form-group">
+            <label for="name">Please enter your name:</label><br>
+            <input id="name" type="text"><br>
+          </div>
+          <label for="develop">What would you like to develop?</label>
           <select class="form-control" id="develop">
             <option value="0"></option>
             <option value="1">Mobile Applications</option>
@@ -23,20 +27,20 @@
             <option value="3">Desktop Applications</option>
           </select>
           <br>
-          <label for="work">Where do you want to work?</label>
+          <label for="work">Where would you want to work?</label>
           <select class="form-control" id="work">
             <option value="0"></option>
-            <option value="1">A Startup</option>
-            <option value="2">Freelance</option>
-            <option value="3">A Major Tech Firm</option>
+            <option value="1">At a Startup</option>
+            <option value="2">As a Freelancer</option>
+            <option value="3">At a Major Tech Company</option>
           </select>
           <br>
           <label for="pastime">What's your favorite pastime?</label>
           <select class="form-control" id="pastime">
             <option value="0"></option>
-            <option value="1">DMing my D&D Group</option>
-            <option value="2">Making Art</option>
-            <option value="3">Reading</option>
+            <option value="1">DM'ing my D&D Group</option>
+            <option value="2">Producing Art</option>
+            <option value="3">Reading Documentation</option>
           </select>
           <br>
           <label for="tenyears">Where do you see yourself in ten years?</label>
@@ -47,7 +51,7 @@
             <option value="3">Lead Developer at Microsoft</option>
           </select>
           <br>
-          <label for="describe">What best describes you?</label>
+          <label for="describe">Which of these best describe you?</label>
           <select class="form-control" id="describe">
             <option value="0"></option>
             <option value="1">Passionate, but Reserved</option>
@@ -61,19 +65,19 @@
       </div>
       <div id="output">
         <div class="android">
-          <h3>You should take the Java/Android track!</h3>
+          <h3><span class="name"></span>, you should take the Java/Android track!</h3>
           <p>Java is a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
         </div>
         <div class="react">
-          <h3>You should take the CSS/React track!</h3>
-          <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. </p>
+          <h3><span class="name"></span>, you should take the CSS/React track!</h3>
+          <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
         </div>
         <div class="net">
-          <h3>You should take the C#/.NET track!</h3>
+          <h3><span class="name"></span>, you should take the C#/.NET track!</h3>
           <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
         </div>
         <div class="error">
-          <h2>Please respond to each question!</h2>
+          <h2>Please enter your name and respond to each question!</h2>
           <p>Refresh the page and try again!</p>
           <button class= "btn-lg btn-danger" onclick=location=URL>Refresh</button>
         </div>
