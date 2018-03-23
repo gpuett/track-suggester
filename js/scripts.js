@@ -7,5 +7,12 @@ $(document).ready(function(){
     var q4 = parseInt($("#tenyears").val());
     var q5 = parseInt($("#describe").val());
     var result = q1 + q2 + q3 + q4 + q5
-  })
-})
+      if (result <= 6 || q3 === 1) {
+        $(".android").show();
+      } else if (result <=11 || q4 === 2) {
+        $(".react").show();
+      } else {
+        $(".net").show();
+      }
+  });
+});
