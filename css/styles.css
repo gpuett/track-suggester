@@ -29,6 +29,10 @@
   background-image: url(../img/subtle.jpg);
 }
 
+.jumbotron p, h1 {
+  font-family: garamond;
+}
+
 .container {
   display: block;
   text-align: center;
@@ -51,6 +55,7 @@ form {
 
 body {
   background-image: url(../img/swirl.jpg);
+  font-family: garamond;
 }
 .form-group {
   padding: 15px;
