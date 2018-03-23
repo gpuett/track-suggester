@@ -29,8 +29,8 @@
   background-image: url(../img/subtle.jpg);
 }
 
-.jumbotron p, h1 {
-  font-family: garamond;
+.jumbotron p {
+  font-size: 25px;
 }
 
 .container {
