@@ -10,52 +10,55 @@
   <body>
     <div class="jumbotron">
       <h1>Track Suggester for Your Future in Development!</h1>
-      <p>Your future looks bright now that you are enrolling Epicodus! Let's take a quick survey to see what track best fits your skills and interests.</p>
+      <p>Your future looks bright now that you are enrolling at Epicodus! Let's take a quick survey to see what track best fits your skills and interests.</p>
     </div>
     <div class="container">
-      <form id="suggest">
-        <label for="develop">What do you want to develop?</label>
-        <select class="form-control" id="develop">
-          <option value="0"></option>
-          <option value="1">Mobile Applications</option>
-          <option value="2">Websites</option>
-          <option value="3">Desktop Applications</option>
-        </select>
-        <br>
-        <label for="work">Where do you want to work?</label>
-        <select class="form-control" id="work">
-          <option value="0"></option>
-          <option value="1">A Startup</option>
-          <option value="2">Freelance</option>
-          <option value="3">A Major Tech Firm</option>
-        </select>
-        <br>
-        <label for="pastime">What's your favorite pastime?</label>
-        <select class="form-control" id="pastime">
-          <option value="0"></option>
-          <option value="1">DMing my D&D Group</option>
-          <option value="2">Making Art</option>
-          <option value="3">Reading</option>
-        </select>
-        <br>
-        <label for="tenyears">Where do you see yourself in ten years?</label>
-        <select class="form-control" id="tenyears">
-          <option value="0"></option>
-          <option value="1">Releasing the Highest Grossing Mobile App of All Time</option>
-          <option value="2">CEO of My Own Design Firm</option>
-          <option value="3">Lead Developer at Microsoft</option>
-        </select>
-        <br>
-        <label for="describe">What best describes you?</label>
-        <select class="form-control" id="describe">
-          <option value="0"></option>
-          <option value="1">Passionate, but Reserved</option>
-          <option value="2">Whimsical, but Studious</option>
-          <option value="3">Stern, but Forgiving</option>
-        </select>
-        <br>
-        <button type="submit" class="btn btn-success">Submit!</button>
-      </form>
+      <div id="quiz">
+        <form id="suggest">
+          <label for="develop">What do you want to develop?</label>
+          <select class="form-control" id="develop">
+            <option value="0"></option>
+            <option value="1">Mobile Applications</option>
+            <option value="2">Websites</option>
+            <option value="3">Desktop Applications</option>
+          </select>
+          <br>
+          <label for="work">Where do you want to work?</label>
+          <select class="form-control" id="work">
+            <option value="0"></option>
+            <option value="1">A Startup</option>
+            <option value="2">Freelance</option>
+            <option value="3">A Major Tech Firm</option>
+          </select>
+          <br>
+          <label for="pastime">What's your favorite pastime?</label>
+          <select class="form-control" id="pastime">
+            <option value="0"></option>
+            <option value="1">DMing my D&D Group</option>
+            <option value="2">Making Art</option>
+            <option value="3">Reading</option>
+          </select>
+          <br>
+          <label for="tenyears">Where do you see yourself in ten years?</label>
+          <select class="form-control" id="tenyears">
+            <option value="0"></option>
+            <option value="1">Releasing the Highest Grossing Mobile App of All Time</option>
+            <option value="2">CEO of My Own Design Firm</option>
+            <option value="3">Lead Developer at Microsoft</option>
+          </select>
+          <br>
+          <label for="describe">What best describes you?</label>
+          <select class="form-control" id="describe">
+            <option value="0"></option>
+            <option value="1">Passionate, but Reserved</option>
+            <option value="2">Whimsical, but Studious</option>
+            <option value="3">Stern, but Forgiving</option>
+          </select>
+          <br>
+          <button type="submit" class="btn-lg btn-block btn-danger">Submit!</button>
+          <br>
+        </form>
+      </div>
       <div id="output">
         <div class="android">
           <h3>You should take the Java/Android track!</h3>
@@ -68,6 +71,10 @@
         <div class="net">
           <h3>You should take the C#/.NET track!</h3>
           <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
+        </div>
+        <div class="error">
+          <h2>Please respond to each question!</h2>
+          <p>Refresh the page and try again!</p>
         </div>
       </div>
     </div>
